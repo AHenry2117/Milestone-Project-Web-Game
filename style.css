@@ -3,7 +3,7 @@ body {
 }
 #title {
     color:rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 4px 4px 6px #000000;
     text-align: center;
@@ -16,3 +16,35 @@ img {
     width: 20%;
     height: auto;
   }
+
+#userNumbers {
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px #0e0024;
+    margin-left: 5%;
+
+}
+
+#winningNumbers{
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 4px 4px 6px #0e0024;
+    margin-left: 5%;
+}
+#start,#reveal{
+    display: inline-block;
+    background-color: rgb(5, 43, 230);
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 350px;
+    margin-left: 70%;
+
+}
