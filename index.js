@@ -39,21 +39,21 @@ function revealWinningNums(){
    
  
 
-//Return Random integer 1-50
+//Return Random integer 1-25
 function random_user_nums(){
-   return Math.floor((Math.random()*6)+1);
+   return Math.floor((Math.random()*25)+1);
 }
 function random_winning_nums(){
-    return Math.floor((Math.random()*6)+1);
+    return Math.floor((Math.random()*25)+1);
  }
 function checkforWin(){
     let results = document.createElement("img");
     //Winning/Lose Variables
     if(userNums == winningNums){
-        results.src= "/Assets/Winner.png"
+        results.src= "./Assets/Winner.png"
         solidContainer.appendChild(results)
      } else {
-        results.src= "/Assets/Loser.png"
+        results.src= "./Assets/Loser.png"
         solidContainer.appendChild(results)
      }
 }
