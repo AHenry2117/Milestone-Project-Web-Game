@@ -78,7 +78,7 @@ body {
     position: inline-block;
     align-items: center;
 }
-#resultsImg{
+#results{
     display: block;
     margin-left: 40%;
     margin-right: auto;

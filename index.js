@@ -36,9 +36,7 @@ function revealWinningNums(){
     revealButton.disabled = true;
     checkforWin();
 }
-   
  
-
 //Return Random integer 1-25
 function random_user_nums(){
    return Math.floor((Math.random()*25)+1);
